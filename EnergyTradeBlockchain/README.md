@@ -1,5 +1,5 @@
 Energy Exchange DApp
-Description
+
 The Energy Exchange DApp is a decentralized application developed on the Ethereum platform, designed to facilitate peer-to-peer energy trading. 
 This platform enables users to buy and sell excess renewable energy without the need for traditional intermediaries, promoting efficiency, transparency, 
 and the use of sustainable energy sources. 
