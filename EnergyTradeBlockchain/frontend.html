@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Energy Exchange DApp</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+</head>
+<body>
+    <div id="app">
+        <h1>Energy Exchange</h1>
+        <button @click="buyEnergy">Buy Energy</button>
+        <button @click="sellEnergy">Sell Energy</button>
+    </div>
+
+    <script>
+        const app = new Vue({
+            el: '#app',
+            methods: {
+                async loadWeb3() {
+                    if (window.ethereum) {
+                        window.web3 = new Web3(window.ethereum);
+                        await window.ethereum.enable();
+                    } else if (window.web3) {
+                        window.web3 = new Web3(window.web3.currentProvider);
+                    } else {
+                        console.log('Non-Ethereum browser detected. You should consider trying MetaMask!');
+                    }
+                },
+                async buyEnergy() {
+                    // Εδώ θα προσθέσεις τη λογική για την αγορά ενέργειας
+                },
+                async sellEnergy() {
+                    // Εδώ θα προσθέσεις τη λογική για την πώληση ενέργειας
+                }
+            },
+            mounted() {
+                this.loadWeb3();
+            }
+        });
+    </script>
+</body>
+</html>
