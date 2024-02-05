@@ -20,10 +20,10 @@ Prerequisites
 
 Installation
 Clone the repository
-git clone https://github.com/panagiotisvionis/energy-exchange-dapp.git
+git clone https://github.com/panagiotisvionis/Blockchain---Portofolio/tree/main/EnergyTradeBlockchain
 
 Install the dependencies
-cd energy-exchange-dapp
+cd EnergyTradeBlockchain
 npm install
 
 Start Ganache
