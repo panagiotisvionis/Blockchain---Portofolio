@@ -20,7 +20,7 @@ Prerequisites
 
 Installation
 Clone the repository
-git clone https://github.com/yourusername/energy-exchange-dapp.git
+git clone https://github.com/panagiotisvionis/energy-exchange-dapp.git
 
 Install the dependencies
 cd energy-exchange-dapp
